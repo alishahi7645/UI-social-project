@@ -1,12 +1,16 @@
-import Navbar from './components/navbar/Navbar';
-import Header from './components/header/Header';
+import {Navbar,Header,Features,Download,Subscribe,Faq,Footer} from './components/index'
 function App() {
   return (
     <main>
-        <header className="header-bg">
-          <Navbar />
-          <Header />
-        </header>
+      <header className="header-bg">
+        <Navbar />
+        <Header />
+      </header>
+      <Features />
+      <Download />
+      <Subscribe />
+      <Faq />
+      <Footer />
     </main>
   );
 }
