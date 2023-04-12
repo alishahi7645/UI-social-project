@@ -30,7 +30,7 @@ body {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -41,6 +41,29 @@ body {
   min-height: 100vh;
 }
 section{
-  padding: 2rem 0;
+  padding: 4rem 0;
   width: 100%;
+}
+a{
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+  margin-right: 1rem;
+  font-weight: 200;
+  transition: 0.3s ease;
+}
+a:hover {
+  color: orangered;
+}
+a.btn{
+  border-radius: 5px;
+  padding: 5px 8px;
+}
+a.btn-dark{
+  border: 2px solid #fff;
+}
+a.btn-light{
+  background: orangered;
+  border: 2px solid transparent;
+  color: var(--color-white);
 }
