@@ -1,0 +1,14 @@
+#header{
+    position: relative;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header h1{
+    font-size: 3rem;
+    line-height: 1rem;
+    color: var(--color-white);
+    padding-bottom: 1.5rem;
+}
