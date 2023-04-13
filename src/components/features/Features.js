@@ -1,17 +1,38 @@
 import React from "react";
 import { BsFillBookmarkStarFill } from "react-icons/bs";
-import './Features.css'
+import "./Features.css";
+import phoneFeatures from "../../assets/phone-features.png";
+import { FeaturesList } from "./data";
+import { BsHexagon } from "react-icons/bs";
 
 const Features = () => {
   return (
     <section id="features">
       <div className="container features">
         <div className="title">
-          <BsFillBookmarkStarFill color="orangered" size={"25"} />
+          <BsFillBookmarkStarFill color="orangered" size={"30"} />
           <h2>ویزگی های اصلی</h2>
           <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
         </div>
-        <div className="features-content"></div>
+        <div className="features-content">
+          <div className="features-right">
+            <img src={phoneFeatures} alt="" />
+          </div>
+          <div className="features-left">
+            {FeaturesList.map((feature) => (
+              <div className="feature" key={feature.id}>
+                <div className="feature-icon">
+                  <BsHexagon color="#fc5412" size={45} />
+                  <div className="inner-icon">{feature.icon}</div>
+                </div>
+                <div className="feature-text">
+                  <h3>{feature.heading}</h3>
+                  <p>{feature.text}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );
