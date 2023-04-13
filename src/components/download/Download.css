@@ -1,0 +1,39 @@
+#download {
+  background: linear-gradient(
+    90deg,
+    rgba(45, 165, 255, 1) 45%,
+    rgba(1, 223, 245, 1) 100%
+  );
+  text-align: center;
+  color: #fff;
+}
+.download-title h2{
+    position: relative;
+    padding-bottom: 1.5rem;
+}
+.download-title h2::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background: #fff;
+    bottom: 8px;
+    right: 50%;
+    transform: translateX(50%);
+}
+.download-title p{
+    font-size: 11px;
+}
+.download-apps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.download-apps .download-app{
+    width: 6rem;
+    padding: 0.2rem;
+    border: 2px solid #fff;
+    margin: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+}

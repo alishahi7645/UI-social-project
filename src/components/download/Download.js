@@ -1,6 +1,7 @@
 import React from 'react';
 import {FaApple , FaWindows} from 'react-icons/fa';
 import {GrAndroid} from 'react-icons/gr';
+import './Download.css'
 
 function Download() {
   return (
@@ -10,7 +11,7 @@ function Download() {
           <h2>دانلود اپلیکیشن ما</h2>
           <p>برنامه های ما برای دانلود در همه فروشگاه ها موجود است</p>
         </div>
-        <div className="download-apss">
+        <div className="download-apps">
           <div className="download-app">
              <FaApple/>
              <p>آیفون</p>
