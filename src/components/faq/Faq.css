@@ -1,0 +1,41 @@
+.faq-title{
+    text-align:center;
+    padding-bottom: 3rem;
+}
+.faq-title h2{
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 1rem;
+    color: var(--dark-text);
+}
+.faq-title p{
+    font-size: 1rem;
+    width: 400px;
+    margin: 0 auto;
+}
+.questions .question{
+    border: 1px solid var(--light-blue);
+    box-shadow: var(--box-shadow);
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+    width: 80%;
+    max-width: 39rem;
+    border-radius: 5px;
+}
+.questions .question .question-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.questions .question .question-title h3{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.questions .question .question-title button{
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid var(--color-grey);
+    border-radius: 50%;
+    cursor: pointer;
+}
