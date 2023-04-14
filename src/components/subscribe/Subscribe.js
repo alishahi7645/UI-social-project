@@ -1,6 +1,7 @@
 import React from "react";
 import { TiSocialGooglePlus } from "react-icons/ti";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import './Subscribe.css'
 
 const Subscribe = () => {
   return (
