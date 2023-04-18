@@ -21,16 +21,16 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="">خانه</a>
+            <a href="#header">خانه</a>
           </li>
           <li>
-            <a href="">امکانات</a>
+            <a href="#features">امکانات</a>
           </li>
           <li>
-            <a href="">دانلود</a>
+            <a href="#download">دانلود</a>
           </li>
           <li>
-            <a href="">مشترک شوید</a>
+            <a href="#subscribe">مشترک شوید</a>
           </li>
         </ul>
       </div>
