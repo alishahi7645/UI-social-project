@@ -1,4 +1,5 @@
-import {Navbar,Header,Features,Download,Subscribe,Faq,Footer} from './components/index'
+import {Navbar,Header,Features,Download,Subscribe,Faq,Footer} from './components/index';
+import {FaChevronUp} from 'react-icons/fa';
 function App() {
   return (
     <main>
@@ -11,6 +12,9 @@ function App() {
       <Subscribe />
       <Faq />
       <Footer />
+      <a href="#">
+        <FaChevronUp/>
+      </a>
     </main>
   );
 }
